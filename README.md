@@ -2,16 +2,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+.env demo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+STABILITY_API_KEY=
+UPLOADTHING_TOKEN=
+
+# Connect to Supabase via connection pooling.
+DATABASE_URL=
+
+# Direct connection to the database. Used for migrations.
+DIRECT_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=
+NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
